@@ -20,7 +20,7 @@ import com.project.Location.Utility.ReportUtil;
 public class LocationController {
 
 	@Autowired
-	LocationService impl;
+	LocationService impl; //Interface object is used and not the class 
 	
 	@Autowired
 	EmailUtil email;
@@ -45,7 +45,7 @@ public class LocationController {
 	String save(Location location)
 	{
 		impl.saveLocation(location);
-		//email.sendMail("goel.ayushi.2505@gmail.com", "TEST MAIL", "This is a message generated from my location Web Project");   //This is used to send mail but it takes time to send so it is commented.
+		//email.sendMail("AnyEmailId@gmail.com", "TEST MAIL", "This is a message generated from my location Web Project");   //This is used to send mail but it takes time to send so it is commented.
 		return "Show";
 	}
 	

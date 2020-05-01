@@ -24,11 +24,11 @@
    <td>${location.code}</td>
    <td>${location.name}</td>
    <td>${location.type}</td>
-   <td><a href="/del?id=${location.id}">Delete</a></td>
-   <td><a href="/edit?id=${location.id}">Edit</a></td>
+   <td><a href="del?id=${location.id}">Delete</a></td>
+   <td><a href="edit?id=${location.id}">Edit</a></td>
   </tr>
  </c:forEach> 
 </table>
-<a href="/show">Create New Location</a>
+<a href="show">Create New Location</a>
 </body>
 </html>

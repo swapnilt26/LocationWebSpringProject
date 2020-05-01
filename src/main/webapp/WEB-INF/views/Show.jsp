@@ -20,6 +20,6 @@ Type:  Urban<input type="radio" name="type" value="URBAN"/>
 </form>
 Location with Id : ${location.id} Added!!!
 <br>
-<a href="/display">View All Locations</a>
+<a href="display">View All Locations</a>
 </body>
 </html>
